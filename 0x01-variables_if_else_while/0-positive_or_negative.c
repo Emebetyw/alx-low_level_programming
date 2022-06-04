@@ -27,7 +27,7 @@ int main(void)
 	
 	else (n < 0)
 		
-	  printf("%d is a negative nymber\n", n);
+		printf("%d is a negative nymber\n", n);
 					)
 	return (0);
 }
