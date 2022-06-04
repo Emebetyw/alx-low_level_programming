@@ -1,10 +1,15 @@
+/*
+ * File: 0-positive_or_negative.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
  * main - Prints if number is positive, zero or negative
  *
- * Return: Always (Success)
+ * Return: Always 0 (Success).
  */
 
 int main(void)
@@ -14,20 +19,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
 
-	{	
 		printf("%d is a positive number\n", n);
-	}
 	
 	else if (n<0)
 			
-	{
 		printf("%d is a negative nymber\n", n);
-	}
 
 	else (n=0)
 
-	{
 		printf("%d is zer\n", n);
-	}
+
 	return (0);
 }
