@@ -25,7 +25,7 @@ int main(void)
 			
 		printf("%d is a negative nymber\n", n);
 
-	else (n=0)
+	else (n==0)
 
 		printf("%d is zer\n", n);
 
