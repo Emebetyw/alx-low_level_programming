@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - Prints if number is positive, zero or negative
+ *
+ * Return: Always (Success)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -17,14 +20,13 @@ int main(void)
 	else if (n<0)
 			
 	{
-		printf("%d is a negative nymber\n", n;)
+		printf("%d is a negative nymber\n", n);
 	}
 
 	else (n=0)
 
 	{
-		printf("%d is zero", n);
+		printf("%d is zer\n", n);
 	}
 	return (0);
 }
-
