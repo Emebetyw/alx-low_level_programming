@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main -prints both small alphabets and capital alphabets
+ * Main -prints both small alphabets and capital alphabet.
+ *
  * Return : Always return 0 (success).
  */
 int main(void)
