@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -prints both small alphabets and capital alphabets
- * Return : always return 0 (success).
+ * Return : Always return 0 (success).
  */
 int main(void)
 {
@@ -14,3 +14,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }	
+
