@@ -9,7 +9,7 @@
 void print_alphabet_x10(void)
 {
 	char c;
-	count = 1;
+	int count = 1;
 
 	while (count <= 10)
 		for (c = 'a'; c <= 'z'; c++)
