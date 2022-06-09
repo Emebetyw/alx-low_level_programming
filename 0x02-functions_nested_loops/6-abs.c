@@ -2,10 +2,10 @@
 /**
  * _abs - computes the absolute value of an integer
  * @ab: the value to be computed
- * Returns: 0 0r 1
+ * Return: 0 0r 1 _abs
  */
 int _abs(int ab)
 {
-	return (ab * ((ab >0) - (ab < 0)));
+	return (ab * ((ab > 0) - (ab < 0)));
 }
 
