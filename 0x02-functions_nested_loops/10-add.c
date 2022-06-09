@@ -5,11 +5,7 @@
  * Return: returns the result
  */
 
-int add(a, b)
+int add(int a, int b)
 {
-	int sum;
-
-	sum = a + b;
-
-	return (sum);
+	return (a + b);
 }
