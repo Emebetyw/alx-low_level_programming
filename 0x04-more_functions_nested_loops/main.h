@@ -4,5 +4,4 @@
  * Desc:header file containing functions declaration
  */
 int _isupper(int c);
-
-
+int _isdigit(int c);
