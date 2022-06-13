@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * more_line - prints a line
- * @i: counter.
+ * more_line - prints a line.
  * @n: The number of '_' characters to use
  * Return: void
  */
