@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * fizz_buzz- prints 1 to 100
+ * main- prints 1 to 100
  *
  * Return: returns 0
  */
@@ -22,12 +22,15 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		printf("%d", num);
+		else
+		{
+			printf("%d", num);
+		}
 		if (num != 100)
+		{
 			printf(" ");
+		}
 	}
-
-
 	printf("\n");
 	return (0);
 
