@@ -3,13 +3,14 @@
  * more_numbers -prints 10 times the numbers, from 0 to 14
  *
  * Return: returns nothing
- */
-void more_numbers(void);
+*/
+
+void more_numbers(void)
 {
 	int num;
 	int count = 0;
 	
-	if (count <= 9)
+	while (count <= 9)
 	{
 		for (num = 48; num <= 62; num++)
 		{
@@ -17,5 +18,7 @@ void more_numbers(void);
 		}
 		count++;
 		_putchar('\n');
-}
+	}
+
+
 }
