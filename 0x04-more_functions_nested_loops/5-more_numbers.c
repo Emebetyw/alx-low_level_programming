@@ -13,6 +13,7 @@ void more_numbers(void)
 	while (i < 10)
 	{
 		j = 0;
+		
 		while (j < 15)
 		{
 			if (j >= 10)
