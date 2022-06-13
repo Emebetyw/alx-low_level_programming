@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	int num = 0;
+	int num;
+
 	for (num =0; num <= 100; num++)
 	{
 		if(num % 3 == 0)
