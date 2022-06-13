@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * more_line - prints a line
  * @i: counter.
