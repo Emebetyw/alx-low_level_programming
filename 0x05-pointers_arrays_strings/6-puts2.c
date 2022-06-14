@@ -3,12 +3,13 @@
 /**
  * puts2 - prints one char out of 2
  * @str: type
- *
+ * Return: nothing
  */
 
 void puts2(char *str)
 {
-	int i, j = 0;
+	int i,
+	int j = 0;
 
 	while (str[i] != '\0')
 	{
